@@ -35,9 +35,12 @@ float: left;
 
 .header_login li a{
 float: left;
+text-decoration: none;
 padding-right: 18px;
 line-height: 5;
 font-size: 14px;
+color: #000000;
+
 }
 
 .header_contact{
