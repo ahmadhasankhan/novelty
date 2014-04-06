@@ -1,5 +1,19 @@
 <div class="header">
-<div class="top_header"><label><img src="images/logo.png"></label></div>
+<div class="top_header">
+<div class="header_left"><%= link_to image_tag("/images/logo.png") %></div>
+<div class="header_right">
+<div class="header_login">
+<ul>
+    <li><%= link_to "Login", 'login' %></li>
+    <li><%= link_to "Signup", 'signup' %></li>
+    <li><%= link_to "Shopping Cart", '/cart' %></li>
+</ul>
+</div>
+<div class="header_contact">
+<img src="/images/contact.png">
+</div>
+</div>
+</div>
 <div class="menu_bar">
 <ul>
     <li><a href="#">BRIDAL SILK</a></li>

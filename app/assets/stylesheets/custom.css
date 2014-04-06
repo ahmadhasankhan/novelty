@@ -1,12 +1,49 @@
 .header{
 	float: left;
 	width: 100%;
-	
 }
 .top_header{
 	float: left;
 	width: 100%;
+}
 
+.header_left{
+float: left;
+width: 30%;
+}
+
+.header_right{
+float: left;
+width: 70%;	
+}
+
+.header_login{
+float: left;
+width: 55%;
+height: 70px;
+}
+
+.header_login ul{
+float: right;
+}
+
+.header_login li{
+display:inline;
+float: left;
+
+}
+
+.header_login li a{
+float: left;
+padding-right: 18px;
+line-height: 5;
+font-size: 14px;
+}
+
+.header_contact{
+float: left;
+width: 45%;
+background-color: #f9f9f1;
 }
 .menu_bar{
 	float: left;
@@ -14,7 +51,7 @@
 }
 
 .menu_bar ul{
-	float: left;
+	float: right;
 }
 
 .menu_bar li
@@ -46,7 +83,7 @@ color:#FFFFFF;
 
 #search-bar input {
 float: right;
-max-width: 100px;
+max-width: 130px;
 height: 53px;
 background: url(/images/search.png) no-repeat;
 background-color: #ECECE4;
