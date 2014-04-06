@@ -1,0 +1,110 @@
+.header{
+	float: left;
+	width: 100%;
+	
+}
+.top_header{
+	float: left;
+	width: 100%;
+
+}
+.menu_bar{
+	float: left;
+	width: 100%;
+}
+
+.menu_bar ul{
+	float: left;
+}
+
+.menu_bar li
+{
+display:inline;
+float: left;
+}
+
+.menu_bar li a
+{
+float:left;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+text-decoration: none;
+padding:8px;
+line-height: 35px;
+background-color: #FFFFFF;
+color:#333333;
+border:1px solid #EDEDED;
+}
+
+.menu_bar li a:hover
+{
+background-color:#0D8681;
+color:#FFFFFF;
+}
+
+
+
+#search-bar input {
+float: right;
+max-width: 100px;
+height: 53px;
+background: url(/images/search.png) no-repeat;
+background-color: #ECECE4;
+}
+.submit_button{
+	max-width: 20px;
+
+}
+.footer{
+float: left;	
+width: 100%;
+}
+
+.footer_box{
+float: left;
+width: 20%;
+margin-bottom: 20px;
+}
+
+.footer_head{
+float: left;
+width: 100%;
+height: 20px;
+font-weight:bold;
+font-size:16px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.footer_box ul{
+float: left;
+list-style-type: none;
+}
+
+.footer ul li
+{
+float: left;
+width: 100%;
+}
+
+.footer_box ul li a
+{
+float: left;
+font-family:Arial;
+font-size:12px;
+color: #8a8f93;
+padding:3px;
+}
+
+.footer_bottom{
+	float: left;
+	width: 100%;
+	font-size:12px;
+	color: #8a8f93;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-top: 2px solid #EDEDED; 
+}
+
+.payopt_logo{float: right;}

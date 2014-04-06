@@ -1,0 +1,21 @@
+<div class="header">
+<div class="top_header"><label><img src="images/logo.png"></label></div>
+<div class="menu_bar">
+<ul>
+    <li><a href="#">BRIDAL SILK</a></li>
+    <li><a href="#">WEDDING SAREES</a>
+    <li><a href="#">PARTY SAREES</a></li>
+    <li><a href="#">9 YARK SILK</a></li>
+	<li><a href="#">COTTON SILK</a></li>
+	<li><a href="#">SILK DHOTI</a></li>
+	<li><a href="#">SILKS WITH STONE</a></li>
+  <li id="search-bar" data-hook>
+     <% @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Spree::Taxon.roots %>
+	<%= form_tag spree.products_path, :method => :get do %>
+   	<%= search_field_tag :keywords, params[:keywords], :placeholder => "SEARCH" %>
+   	 <%#= submit_tag  :name => nil, :class => 'submit_button' %>
+<% end %>
+    </li>
+  </ul>
+ </div>
+</div>
